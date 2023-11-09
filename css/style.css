@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background-color: rgb(36, 38, 39);
+}
+.inicio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    color:rgb(158, 158, 219);
+}
+
+.inicio img{
+    width: 40px;
+    margin-left: 10px;
+}
+.eventos {
+    max-width: 600px;
+    margin: 0 auto;
+   
+}
+.formulario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    height: 150px;
+    margin: 0px 20px 20px 150px;
+    background-color: rgb(7, 49, 236);
+    border-radius: 9px;
+    box-shadow: 0px 0px 4px 4px #05ee57cb;
+    border: none;
+}
+.formulario input{
+    width: 300px;
+    text-align: center;
+    background-color: rgb(203, 235, 193);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    box-sizing: border-box; 
+    margin-bottom: 5px;
+    border: solid 0.2px rgb(0, 178, 255);
+    border-radius: 8px;
+    padding: 5px;
+}
+#agregar{
+    background-color: rgb(0, 178, 255);
+    color: aliceblue;
+    padding: 8px;
+}
+.listaEventos2{
+    padding: 8px;
+    margin-top: 20px;
+    background-color: rgb(44, 131, 207);
+    border-radius: 20px;
+    width: 600px;
+    box-shadow: 0px 0px 8px 3px rgb(244, 21, 21);
+}
+.listaEventos2:empty {
+    display: flex;
+}
+.eliminar{
+    background-color: rgb(161, 229, 59);
+    border: none;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.evento{
+    margin-top: 10px;
+    padding: 10px;
+    border: solid 2px rgb(5, 84, 118);
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.evento, .dias, .nombreEvento, .fechaEvento{
+    display: flex;
+    padding: 5px;
+    padding-inline: 15px;
+    margin-inline: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.nombreEvento{
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+.dias{
+    font-size: 80%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.diasFaltantes{
+    color: rgb(218, 134, 39);
+    font-size: 20px;
+}
+footer{
+
+    position: end;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
